@@ -2,10 +2,11 @@
 <html lang="es">
 
 <head>
+    <!--configuracion basica  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-
+<!--Estilos de css  -->
     <link rel="stylesheet" href="/src/css/styles.css">
 
     <!-- Iconos -->
@@ -31,7 +32,7 @@
 
             <h1>Jose Visbal</h1>
             <p>Estudiante de desarrollo web</p>
-
+<!--iconos y Enlaces de contacto  -->
             <div class="redes">
                 <a href="https://www.instagram.com/jose_v041?igsh=N3c3N2toazVidTBl" target="_blank"
                     rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
@@ -53,8 +54,10 @@
             Me considero responsable y con ganas de superar retos.
 
         </p>
+        <!--boton con funcion en Js -->
+        <button onclick="cambiarTexto()">Cambiar texto</button>
     </section>
-
+    
     <!-- proyectos -->
     <section id="proyecto">
         <h2>Proyectos</h2>
@@ -78,8 +81,11 @@
             <input type="email" id="email" placeholder="Tu correo">
 
             <button type="submit">Enviar mensaje</button>
-        </form>
-
+            <button  onclick="mostrarMensaje()">Saludar</button>
+       
+       <p id="extra" style="display: none;">Este contenido es oculto</p>
+    </form>
+<!--enlace para el menu de mascotas  -->
         <a href="src/views/mascotas.html" class="link-extra">Ir a mascotas</a>
     </section>
 
